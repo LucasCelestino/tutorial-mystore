@@ -9,8 +9,13 @@ import { productsList } from '../products';
 export class ProductListComponent implements OnInit {
   products = productsList;
 
-  share() {
-    alert('teste');
+  share(product) {
+    let templateAlert = `
+    Product Name: ${product.name}
+    Price: $${product.price}
+    The product has been shared!
+    `;
+    alert(templateAlert);
   }
 
   ngOnInit() {}
