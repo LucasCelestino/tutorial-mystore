@@ -1,0 +1,26 @@
+h2,
+h3,
+p,
+button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: rgb(122, 122, 122);
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  color: #2278d2;
+  font-size: 17px;
+}
+
+button {
+  border: none;
+  padding: 7px 15px;
+  background-color: #2278d2;
+  color: #fff;
+}
